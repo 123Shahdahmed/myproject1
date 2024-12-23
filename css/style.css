@@ -1,0 +1,57 @@
+body{
+    height: 100%;
+}
+.parent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+div button{
+    margin-top: 8rem;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    cursor: pointer;
+    animation-name: click ;
+    animation-duration: 2s;
+}
+@keyframes click{
+    0%{
+        background-color: rgba(206, 188, 188, 0.892);
+        width: 100px;
+
+    }
+    100%{
+        background-color: rgba(151, 150, 150, 0.892);
+        width: 150px;
+   
+    }
+
+}
+div p{
+    width: 200px;
+    color: #ede4e4;
+}
+div h1{
+    color: #ede4e4;
+    letter-spacing: -2px;
+}
+.parent div{
+    padding: 1rem;
+    width: 300px;
+}
+.one{
+    background-color: rgba(255, 68, 0, 0.763);
+}
+.two{
+    background-color: rgba(65, 158, 65, 0.682);
+}
+.three{
+    background-color: rgb(11, 121, 11);
+}
